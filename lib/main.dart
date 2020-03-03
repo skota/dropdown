@@ -42,13 +42,6 @@ class _MyHomePageState extends State<MyHomePage> {
     const DayOfWeek(7, "Sunday"),
   ];
 
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   this.today = DayOfWeek(1, "Sunday");
-  //   super.initState();
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
