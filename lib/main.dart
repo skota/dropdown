@@ -33,7 +33,6 @@ class _MyHomePageState extends State<MyHomePage> {
   DayOfWeek today;
 
   List<DayOfWeek> theWeek = <DayOfWeek>[
-    const DayOfWeek(1, "Sunday"),
     const DayOfWeek(1, "Monday"),
     const DayOfWeek(2, "Tuesday"),
     const DayOfWeek(3, "Wednesday"),
@@ -42,6 +41,13 @@ class _MyHomePageState extends State<MyHomePage> {
     const DayOfWeek(6, "Saturday"),
     const DayOfWeek(7, "Sunday"),
   ];
+
+  // @override
+  // void initState() {
+  //   // TODO: implement initState
+  //   this.today = DayOfWeek(1, "Sunday");
+  //   super.initState();
+  // }
 
   @override
   Widget build(BuildContext context) {
